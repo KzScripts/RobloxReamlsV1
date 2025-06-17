@@ -25,7 +25,7 @@ Tab1:AddDiscordInvite({
 
 local TabScripts = Window:MakeTab({"Scripts", "home"})
 
-local Section = TabMain:AddSection({"BloxFruits"})
+local Section = TabScripts:AddSection({"BloxFruits"})
 
 --BloxFruits
 TabScripts:AddButton({
@@ -67,7 +67,6 @@ TabScripts:AddButton({
     end
 })
 
-
 TabScripts:AddButton({
     Name = "KzHub",
     Callback = function()
@@ -75,11 +74,12 @@ TabScripts:AddButton({
     end
 })
 
-local TabCreditos = Window:MakeTab({"Creditos", "Info"})
+local TabCreditos = Window:MakeTab({"Creditos", "edit"})
 
 local Paragraph = TabCreditos:AddParagraph({"Developer Hub", "script by Roblox Realms and Team Realms"})
 
 local Paragraph = TabCreditos:AddParagraph({"Status Hub", "script is up to date and working 🟢"})
 
 local Paragraph = TabCreditos:AddParagraph({"join our Discord group to receive updates "})
+
 

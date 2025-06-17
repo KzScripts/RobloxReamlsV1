@@ -28,7 +28,7 @@ local TabScripts = Window:MakeTab({"Scripts", "home"})
 local Section = TabMain:AddSection({"BloxFruits"})
 
 --BloxFruits
-TabPlayer:AddButton({
+TabScripts:AddButton({
     Name = "RedzHub",
     Callback = function()
         local Settings = {
@@ -60,7 +60,7 @@ TabScripts:AddButton({
 local Section = TabScripts:AddSection({"Universal"})
 
 -- Universal 
-TabPlayer:AddButton({
+TabScripts:AddButton({
     Name = "Fly",
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Gui-Fly-v3-37111"))()
@@ -68,7 +68,7 @@ TabPlayer:AddButton({
 })
 
 
-TabPlayer:AddButton({
+TabScripts:AddButton({
     Name = "KzHub",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/sXUtNTkh"))()
